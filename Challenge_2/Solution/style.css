@@ -24,36 +24,22 @@ body {
 }
 
 .container {
-  /* width: 80%; */
+  width: 80%;
   /* max-width: 750px; */
   margin: 0 auto;
+}
+
+.intro {
   background: #23424a;
   color: white;
   padding: 50px 0;
 }
 
 .intro-content {
-  /* width: 50%; */
+  width: 50%;
 }
 
-/* Solution */
-
-.container {
-  width: 100vw;
-}
-
-.content-container .content {
-  margin: auto;
-  max-width: 750px;
-  padding: 1em;
-}
-
-.container .intro-content {
-  max-width: 750px;
-  margin: auto;
-  padding: 1em;
-}
-
-.container .intro-content p, h1 {
-  max-width: 50%; /* We set the max-width of the content in this container to be 50% of it's parent */
+.container2 {
+  width: 80%;
+  margin: 0 auto;
 }
